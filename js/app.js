@@ -7,7 +7,7 @@
 				puzzleBoard = document.querySelector('.puzzle-board');
 
 	// store the image names here
-	const pieces = ["vaporwave_background", "vaporwave_background", "vaporwave_background", "vaporwave_background"];
+	const pieces = ["vaporwave_background_reference", "vaporwave_background_reference", "vaporwave_background_reference", "vaporwave_background_reference"];
 
 	//functions go here => what we want to have happen when our triggers fire
 	function changeImageSet() {

@@ -1,4 +1,4 @@
-![All about our music mixer](images/vaporwave_background.jpg "Vaporwave Background")
+![All about our music mixer](images/vaporwave_background_reference.jpg "Vaporwave Background")
 
 # Vaporwave Music Mixer
 
