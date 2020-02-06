@@ -1,92 +1,51 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-	background-image: url(../images/puzzle2.jpg);
-	background-repeat: repeat;
+
+.hidden {
+	display: none;
+}
+
+#siteContainer {
+	margin: 0 auto;
+	width: 960px;
 	background-color: #333;
-	color: #FFF;
-	font-family: 'Luckiest Guy', sans-serif;
-	font-size: 16px;
 }
 
-.hidden { display: none }
-
-#game-boards { width: 100%; text-align: center; }
-
-.puzzle-pieces, .puzzle-board {
-	margin-top: 40px;
-	height: 400px;
-	display: inline-block;
-	border: medium solid #333;
-	background-color: #000;
-	color: inherit;
-	overflow: hidden;
+.headLine {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px 20px 0px;
 }
 
-.puzzle-pieces { width: 300px; margin-right: 20px; }
-
-.puzzle-board { width: 600px; }
-
-.puzzle-image {
-	width: 48%;
-	display: block;
-	padding: 12px 0px 0px 80px;
-	cursor: pointer;
+.mainArea {
+	width: 960px;
+	display: flex;
+	justify-content: center;
 }
 
-/* arrange the puzzle pieces on the board */
-
-
-
-/* set up drop zones */
-.drop-zone{
-	width: 99.5%;
-	height: 49.5%;
-	border: thin solid white;
-	float: right;
-	position: relative;
+.carsAndDrop {
+	display: flex;
+	flex-direction: row;
+	width: 960px;
 }
 
-
-
-/* end board styles */
-
-
-header {
-	position: relative;
-	top: 20px;
-	width: 600px;
-	margin: 0px auto;
-	text-align: center;
+.cars img{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	margin-right: 10px;
 }
 
-header h1 {
-	font-size: 3.25em;
-  	letter-spacing: 3px;
-	margin: 10px 0
+.dropArea {
+	height: 470px;
+	width: 612px;
+	background-color: purple;
 }
 
-header p, footer p {
-	font-size: 1.7em;
-	letter-spacing: 2px;
-	margin: 10px 0
+.carSets img{
+	width: 163px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
 }
-
-footer {
-	position: relative;
-	width: 600px;
-	margin: 65px auto 0;
-	text-align: center;
-}
-
-#buttonHolder { margin: 0px auto; text-align: center; }
-
-#buttonHolder img {
-	margin-left: 5px;
-	margin-right: 5px;
-	border-radius: 20px;
-	border: thin solid #333;
-	cursor: pointer;
-}
-
-#buttonHolder img:hover { opacity: .5; }

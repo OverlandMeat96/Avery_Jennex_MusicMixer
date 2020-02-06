@@ -3,45 +3,44 @@
 <head>
 <meta charset="utf-8">
 	<title>Vaporwave Music Mixer</title>
-	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
-<body>
-	<header id="headLine">
+<body id="siteContainer">
+	<header class="headLine">
 		<h1 class="hidden">Vaporwave Music Mixer</h1>
 		<h2>Vaporwave Music Mixer</h2>
 	</header>
-	<section id="game-boards">
+
+	<section clas="mainArea">
 		<h2 class="hidden">The Game Board</h2>
 
-
-		<div class="puzzle-pieces">
-			<h3 class="hidden">The Drag Zone</h3>
-			<img  src="images/vaporwave_car.jpg" alt="top left" class="puzzle-image">
-			<img  src="images/vaporwave_car.jpg" alt="top left" class="puzzle-image">
-			<img  src="images/vaporwave_car.jpg" alt="top left" class="puzzle-image">
-			<img  src="images/vaporwave_car.jpg" alt="top left" class="puzzle-image">
+		<div class="carsAndDrop">
+		<div class="cars">
+			<h3 class="hidden">Car Choices</h3>
+			<img  src="images/vaporwave_car.jpg" alt="top left">
+			<img  src="images/vaporwave_car.jpg" alt="top left">
+			<img  src="images/vaporwave_car.jpg" alt="top left">
+			<img  src="images/vaporwave_car.jpg" alt="top left">
 		</div>
 
+		<div class="dropArea">
+			<h3 class="hidden">Drop Area</h3>
+		</div>
 
-		<div class="puzzle-board">
-			<h3 class="hidden">The Drop Zones</h3>
-			<div class="drop-zone"></div>
-			<div class="drop-zone"></div>
-			<div class="drop-zone"></div>
-			<div class="drop-zone"></div>
+		<div class="carSets">
+			<h3 class="hidden">Car Sets</h3>
+			<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+			<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+	    	<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+			<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+		</div>
+
 		</div>
 	</section>
 
 
 	<footer>
-		<p>Click Image To Change Car Set</p>
-		<nav id="buttonHolder">
-			<h3 class="hidden">Select Image</h3>
-			<img data-puzzleindex="0" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-			<img data-puzzleindex="1" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-	    	<img data-puzzleindex="2" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-			<img data-puzzleindex="3" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-		</nav>
 	</footer>
 
 
