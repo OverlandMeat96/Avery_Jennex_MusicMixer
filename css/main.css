@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/* ---------------- GENERAL ----------------*/
 .hidden {
 	display: none;
 }
@@ -11,6 +13,7 @@
 	background-color: #333;
 }
 
+/* ---------------- HEADER ----------------*/
 .headLine {
 	font-size: 50px;
 	display: flex;
@@ -18,34 +21,73 @@
 	margin: 20px 0px 20px 0px;
 }
 
-.mainArea {
+/* ---------------- DROP AREA ----------------*/
+.content {
 	width: 960px;
 	display: flex;
 	justify-content: center;
-}
-
-.carsAndDrop {
-	display: flex;
-	flex-direction: row;
-	width: 960px;
-}
-
-.cars img{
-	display: flex;
-	justify-content: center;
-	width: 200px;
-	margin-right: 10px;
 }
 
 .dropArea {
 	height: 470px;
-	width: 612px;
+	width: 960px;
 	background-color: purple;
+	border-radius: 10px;
 }
 
-.carSets img{
-	width: 163px;
+/* ---------------- AUDIO SELECTION ----------------*/
+
+.audioSelector {
+	display: flex;
+	flex-direction: row;
+}
+
+/* -------- INSTRUMENTS --------*/
+
+.instrumentIcons {
+	margin:10px 0px 10px 0px;
+	width: 120px;
+	height: 450px;
+	background-color: black;
+	border-radius: 10px;
+}
+
+.instrumentIcons img{
+	width: 100px;
+	height: 100px;
 	display: flex;
 	flex-direction: column;
-	margin-left: 10px;
+	align-items: center;
+	margin: 10px 0px 0px 10px;
+}
+
+/* -------- AUSIO SAMPLES --------*/
+
+.cars {
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	border-radius: 10px;
+	width: 830px;
+	height: 450px;
+	margin: 10px 0px 0px 10px;
+}
+
+.cars img{
+	display: flex;
+	flex-direction: row;
+	width: 180px;
+	height: 300px;
+	padding: 70px 0px 10px 20px;
+}
+
+.Car button {
+	border-radius: 5px;
+}
+
+.carButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 20px;
 }

@@ -7,40 +7,75 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body id="siteContainer">
+
+
 	<header class="headLine">
 		<h1 class="hidden">Vaporwave Music Mixer</h1>
 		<h2>Vaporwave Music Mixer</h2>
 	</header>
 
-	<section clas="mainArea">
-		<h2 class="hidden">The Game Board</h2>
 
-		<div class="carsAndDrop">
-		<div class="cars">
-			<h3 class="hidden">Car Choices</h3>
-			<img  src="images/vaporwave_car.jpg" alt="top left">
-			<img  src="images/vaporwave_car.jpg" alt="top left">
-			<img  src="images/vaporwave_car.jpg" alt="top left">
-			<img  src="images/vaporwave_car.jpg" alt="top left">
-		</div>
+	<section clas="content">
+		<h2 class="hidden">Background and Audio</h2>
 
 		<div class="dropArea">
 			<h3 class="hidden">Drop Area</h3>
 		</div>
 
-		<div class="carSets">
-			<h3 class="hidden">Car Sets</h3>
-			<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-			<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-	    	<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-			<img src="images/vaporwave_background_reference.jpg" alt="thumbnail">
-		</div>
+		<section class="audioSelector">
+			<div class="instrumentIcons">
+				<h3 class="hidden">Car Sets</h3>
+				<img data-puzzleindex="0" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+				<img data-puzzleindex="1" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+		    	<img data-puzzleindex="2" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+				<img data-puzzleindex="3" src="images/vaporwave_background_reference.jpg" alt="thumbnail">
+			</div>
+ 
+			<div class="cars">
+				<h3 class="hidden">Car Choices</h3>
 
-		</div>
+				<audio id="jukebox" src=""></audio>
+
+				<div class="Car">
+					<img  src="images/vaporwave_car.jpg" alt="top left">
+					<div class="carButtons">
+						<button class="playTrack" data-trackref="looperman-l-0782612-0094346-40a-twang">PLAY</button>
+        				<button class="pauseTrack">PAUSE</button>
+        			</div>
+        		</div>
+
+				<div class="Car">
+					<img  src="images/vaporwave_car.jpg" alt="top left">
+					<div class="carButtons">
+						<button class="playTrack" data-trackref="looperman-l-2392682-0199000-boring-cliche-lofi-beat">PLAY</button>
+        				<button class="pauseTrack">PAUSE</button>
+        			</div>
+        		</div>
+
+        		<div class="Car">
+					<img  src="images/vaporwave_car.jpg" alt="top left">
+					<div class="carButtons">
+						<button class="playTrack" data-trackref="looperman-l-3234385-0199135-romance-sad-lil-peep-juice-wrld-guitar-by-apes">PLAY</button>
+        				<button class="pauseTrack">PAUSE</button>
+        			</div>
+        		</div>
+
+        		<div class="Car">
+					<img  src="images/vaporwave_car.jpg" alt="top left">
+					<div class="carButtons">
+						<button class="playTrack" data-trackref="Aron Chupa Im An Albatroz [Xsongspk.me]">PLAY</button>
+        				<button class="pauseTrack">PAUSE</button>
+        			</div>
+        		</div>
+
+			</div>
+		</section>
 	</section>
+
 
 	<footer>
 	</footer>
+
 
 	<script src="script/app.js"></script>
 </body>
